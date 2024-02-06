@@ -13,8 +13,8 @@ Category.hasMany(Product, {
   onDelete: "SET NULL",
 });
 
-Product.belongtoMany(Tag, { through: 'ProductTag' });
-Tag.belongtoMany(Product, { through: 'ProductTag' });
+Product.belongsToMany(Tag, { through: 'ProductTag' });
+Tag.belongsToMany(Product, { through: 'ProductTag' });
 
 
 module.exports = {
