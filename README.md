@@ -17,16 +17,15 @@
   with Products and their related Tags and Categories.
   
 ## Usage
-  The application is initialized by creating the databse in MYSQL, 
-  then seeding it with data. When the server is connected, one can use various http requests to Get, Post, Put, or Delete the data.
+  The application is initialized by creating the database in MYSQL, 
+  then seeding it with data. When the server is connected, one can use various 
+  http requests in Insomnia to Get, Post, Put, or Delete the data.
   
 ## Installation
-  The application uses Node.JS, Dotenv, Express, MYSQL2, and
-  Sequelize. 
+  The application uses Insomnia, Node.JS, Dotenv, Express, MYSQL2, and Sequelize. 
 
 ## Relevant Media ##
-  ![screenshot](./screenshot.png)
-
+  [A video demonstration of the application's functionality](https://drive.google.com/file/d/1Wbtin8SfUYOxg_vgCen5gfiOG38GCSkU/view)
 
 ## Licensing
   This application is licensed by MIT.
